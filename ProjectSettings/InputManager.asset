@@ -13,10 +13,17 @@ InputManager:
     positiveButton: right
     altNegativeButton: a
     altPositiveButton: d
+<<<<<<< HEAD
     gravity: 3
     dead: 0.001
     sensitivity: 3
     snap: 1
+=======
+    gravity: 1000
+    dead: 0.001
+    sensitivity: 1000
+    snap: 0
+>>>>>>> develop
     invert: 0
     type: 0
     axis: 0
@@ -29,10 +36,17 @@ InputManager:
     positiveButton: up
     altNegativeButton: s
     altPositiveButton: w
+<<<<<<< HEAD
     gravity: 3
     dead: 0.001
     sensitivity: 3
     snap: 1
+=======
+    gravity: 1000
+    dead: 0.001
+    sensitivity: 1000
+    snap: 0
+>>>>>>> develop
     invert: 0
     type: 0
     axis: 0

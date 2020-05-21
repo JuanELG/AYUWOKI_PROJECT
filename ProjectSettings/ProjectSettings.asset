@@ -4,7 +4,15 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 20
+<<<<<<< HEAD
   productGUID: 8ff07f0eaf6c99049b4d136fa9546be3
+=======
+<<<<<<< HEAD
+  productGUID: 159c401bcd0c45843b75049b27d564b8
+=======
+  productGUID: 18d613b8cffeeee48b1c0fcdc5bcd891
+>>>>>>> develop
+>>>>>>> develop
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +21,11 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
+<<<<<<< HEAD
   productName: Ayuwoki-Hee-Hee
+=======
+  productName: AYUWOKI_PROJECT
+>>>>>>> develop
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -68,7 +80,15 @@ PlayerSettings:
   androidBlitType: 0
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
+<<<<<<< HEAD
   runInBackground: 1
+=======
+<<<<<<< HEAD
+  runInBackground: 1
+=======
+  runInBackground: 0
+>>>>>>> develop
+>>>>>>> develop
   captureSingleScreen: 0
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
@@ -83,7 +103,15 @@ PlayerSettings:
   resizableWindow: 0
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
+<<<<<<< HEAD
   gpuSkinning: 1
+=======
+<<<<<<< HEAD
+  gpuSkinning: 1
+=======
+  gpuSkinning: 0
+>>>>>>> develop
+>>>>>>> develop
   xboxPIXTextureCapture: 0
   xboxEnableAvatar: 0
   xboxEnableKinect: 0
@@ -105,7 +133,15 @@ PlayerSettings:
   xboxOneDisableEsram: 0
   xboxOneEnableTypeOptimization: 0
   xboxOnePresentImmediateThreshold: 0
+<<<<<<< HEAD
   switchQueueCommandMemory: 0
+=======
+<<<<<<< HEAD
+  switchQueueCommandMemory: 0
+=======
+  switchQueueCommandMemory: 1048576
+>>>>>>> develop
+>>>>>>> develop
   switchQueueControlMemory: 16384
   switchQueueComputeMemory: 262144
   switchNVNShaderPoolsGranularity: 33554432
@@ -119,7 +155,15 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
+<<<<<<< HEAD
   bundleVersion: 0.1
+=======
+<<<<<<< HEAD
+  bundleVersion: 0.1
+=======
+  bundleVersion: 1.0
+>>>>>>> develop
+>>>>>>> develop
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -158,7 +202,15 @@ PlayerSettings:
   useHDRDisplay: 0
   D3DHDRBitDepth: 0
   m_ColorGamuts: 00000000
+<<<<<<< HEAD
   targetPixelDensity: 30
+=======
+<<<<<<< HEAD
+  targetPixelDensity: 30
+=======
+  targetPixelDensity: 0
+>>>>>>> develop
+>>>>>>> develop
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
@@ -177,6 +229,10 @@ PlayerSettings:
   CreateWallpaper: 0
   APKExpansionFiles: 0
   keepLoadedShadersAlive: 0
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> develop
   StripUnusedMeshComponents: 1
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
@@ -184,6 +240,18 @@ PlayerSettings:
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 10.0
+<<<<<<< HEAD
+=======
+=======
+  StripUnusedMeshComponents: 0
+  VertexChannelCompressionMask: 4054
+  iPhoneSdkVersion: 988
+  iOSTargetOSVersionString: 
+  tvOSSdkVersion: 0
+  tvOSRequireExtendedGameController: 0
+  tvOSTargetOSVersionString: 
+>>>>>>> develop
+>>>>>>> develop
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIRequiresFullScreen: 1
@@ -251,13 +319,32 @@ PlayerSettings:
   iOSRequireARKit: 0
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
+<<<<<<< HEAD
   clonedFromGUID: c0afd0d1d80e3634a9dac47e8a0426ea
   templatePackageId: com.unity.template.3d@4.2.6
+=======
+<<<<<<< HEAD
+  clonedFromGUID: c0afd0d1d80e3634a9dac47e8a0426ea
+  templatePackageId: com.unity.template.3d@3.1.0
+>>>>>>> develop
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
+<<<<<<< HEAD
   AndroidKeystoreName: 
+=======
+  AndroidKeystoreName: '{inproject}: '
+=======
+  clonedFromGUID: 00000000000000000000000000000000
+  templatePackageId: 
+  templateDefaultScene: 
+  AndroidTargetArchitectures: 1
+  AndroidSplashScreenScale: 0
+  androidSplashScreen: {fileID: 0}
+  AndroidKeystoreName: 
+>>>>>>> develop
+>>>>>>> develop
   AndroidKeyaliasName: 
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
@@ -275,6 +362,10 @@ PlayerSettings:
   AndroidAppBundleSizeToValidate: 150
   m_BuildTargetIcons: []
   m_BuildTargetPlatformIcons: []
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> develop
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone
     m_StaticBatching: 1
@@ -295,6 +386,7 @@ PlayerSettings:
   - m_BuildTarget: MacStandaloneSupport
     m_GraphicsJobs: 0
   - m_BuildTarget: Switch
+<<<<<<< HEAD
     m_GraphicsJobs: 1
   - m_BuildTarget: MetroSupport
     m_GraphicsJobs: 1
@@ -312,6 +404,25 @@ PlayerSettings:
     m_GraphicsJobs: 1
   - m_BuildTarget: XboxOnePlayer
     m_GraphicsJobs: 1
+=======
+    m_GraphicsJobs: 0
+  - m_BuildTarget: MetroSupport
+    m_GraphicsJobs: 0
+  - m_BuildTarget: AppleTVSupport
+    m_GraphicsJobs: 0
+  - m_BuildTarget: BJMSupport
+    m_GraphicsJobs: 0
+  - m_BuildTarget: LinuxStandaloneSupport
+    m_GraphicsJobs: 0
+  - m_BuildTarget: PS4Player
+    m_GraphicsJobs: 0
+  - m_BuildTarget: iOSSupport
+    m_GraphicsJobs: 0
+  - m_BuildTarget: WindowsStandaloneSupport
+    m_GraphicsJobs: 0
+  - m_BuildTarget: XboxOnePlayer
+    m_GraphicsJobs: 0
+>>>>>>> develop
   - m_BuildTarget: LuminSupport
     m_GraphicsJobs: 0
   - m_BuildTarget: AndroidPlayer
@@ -342,6 +453,16 @@ PlayerSettings:
     m_Devices:
     - Oculus
     - OpenVR
+<<<<<<< HEAD
+=======
+=======
+  m_BuildTargetBatching: []
+  m_BuildTargetGraphicsJobs: []
+  m_BuildTargetGraphicsJobMode: []
+  m_BuildTargetGraphicsAPIs: []
+  m_BuildTargetVRSettings: []
+>>>>>>> develop
+>>>>>>> develop
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
@@ -476,7 +597,15 @@ PlayerSettings:
   switchDataLossConfirmation: 0
   switchUserAccountLockEnabled: 0
   switchSystemResourceMemory: 16777216
+<<<<<<< HEAD
   switchSupportedNpadStyles: 22
+=======
+<<<<<<< HEAD
+  switchSupportedNpadStyles: 3
+=======
+  switchSupportedNpadStyles: 22
+>>>>>>> develop
+>>>>>>> develop
   switchNativeFsCacheSize: 32
   switchIsHoldTypeHorizontal: 0
   switchSupportedNpadCount: 8
@@ -521,7 +650,15 @@ PlayerSettings:
   ps4RemotePlayKeyAssignment: -1
   ps4RemotePlayKeyMappingDir: 
   ps4PlayTogetherPlayerCount: 0
+<<<<<<< HEAD
   ps4EnterButtonAssignment: 1
+=======
+<<<<<<< HEAD
+  ps4EnterButtonAssignment: 1
+=======
+  ps4EnterButtonAssignment: 2
+>>>>>>> develop
+>>>>>>> develop
   ps4ApplicationParam1: 0
   ps4ApplicationParam2: 0
   ps4ApplicationParam3: 0
@@ -542,8 +679,18 @@ PlayerSettings:
   ps4UseResolutionFallback: 0
   ps4ReprojectionSupport: 0
   ps4UseAudio3dBackend: 0
+<<<<<<< HEAD
   ps4SocialScreenEnabled: 0
   ps4ScriptOptimizationLevel: 0
+=======
+  ps4UseLowGarlicFragmentationMode: 1
+  ps4SocialScreenEnabled: 0
+<<<<<<< HEAD
+  ps4ScriptOptimizationLevel: 0
+=======
+  ps4ScriptOptimizationLevel: 2
+>>>>>>> develop
+>>>>>>> develop
   ps4Audio3dVirtualSpeakerCount: 14
   ps4attribCpuUsage: 0
   ps4PatchPkgPath: 
@@ -566,7 +713,15 @@ PlayerSettings:
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   blurSplashScreenBackground: 1
   spritePackerPolicy: 
+<<<<<<< HEAD
   webGLMemorySize: 16
+=======
+<<<<<<< HEAD
+  webGLMemorySize: 16
+=======
+  webGLMemorySize: 32
+>>>>>>> develop
+>>>>>>> develop
   webGLExceptionSupport: 1
   webGLNameFilesAsHashes: 0
   webGLDataCaching: 1
@@ -576,7 +731,15 @@ PlayerSettings:
   webGLTemplate: APPLICATION:Default
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
+<<<<<<< HEAD
   webGLCompressionFormat: 1
+=======
+<<<<<<< HEAD
+  webGLCompressionFormat: 1
+=======
+  webGLCompressionFormat: 0
+>>>>>>> develop
+>>>>>>> develop
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLWasmStreaming: 0
@@ -594,14 +757,30 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
+<<<<<<< HEAD
   metroPackageName: Template_3D
+=======
+<<<<<<< HEAD
+  metroPackageName: Template_3D
+=======
+  metroPackageName: AYUWOKI_PROJECT
+>>>>>>> develop
+>>>>>>> develop
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
+<<<<<<< HEAD
   metroApplicationDescription: Template_3D
+=======
+<<<<<<< HEAD
+  metroApplicationDescription: Template_3D
+=======
+  metroApplicationDescription: AYUWOKI_PROJECT
+>>>>>>> develop
+>>>>>>> develop
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -650,8 +829,18 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
+<<<<<<< HEAD
   cloudServicesEnabled:
     UNet: 1
+=======
+<<<<<<< HEAD
+  cloudServicesEnabled:
+    Build: 1
+    UNet: 1
+=======
+  cloudServicesEnabled: {}
+>>>>>>> develop
+>>>>>>> develop
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -664,6 +853,19 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  cloudProjectId: c53c3fdf-d30d-4013-aecb-4ddb068e3325
+  framebufferDepthMemorylessMode: 0
+  projectName: AYUWOKI_PROJECT
+  organizationId: mythic-games-studio
+  cloudEnabled: 0
+  enableNativePlatformBackendsForNewInputSystem: 0
+  disableOldInputManagerSupport: 0
+  legacyClampBlendShapeWeights: 1
+=======
+>>>>>>> develop
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   projectName: 
@@ -672,3 +874,7 @@ PlayerSettings:
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
   legacyClampBlendShapeWeights: 0
+<<<<<<< HEAD
+=======
+>>>>>>> develop
+>>>>>>> develop
