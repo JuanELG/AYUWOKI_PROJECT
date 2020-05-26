@@ -1,2 +1,12 @@
+<<<<<<< HEAD
 m_EditorVersion: 2019.3.9f1
 m_EditorVersionWithRevision: 2019.3.9f1 (e6e740a1c473)
+=======
+<<<<<<< HEAD
+m_EditorVersion: 2019.3.5f1
+m_EditorVersionWithRevision: 2019.3.5f1 (d691e07d38ef)
+=======
+m_EditorVersion: 2019.3.9f1
+m_EditorVersionWithRevision: 2019.3.9f1 (e6e740a1c473)
+>>>>>>> develop
+>>>>>>> parent of d8a4c7b... Revert "Resolving conflicts for merge"
