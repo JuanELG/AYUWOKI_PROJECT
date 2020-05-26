@@ -50,7 +50,7 @@ public class EnemyAI : MonoBehaviour
     private void Chasing()
     {
         Vector3 sightingDeltaPosition = enemySight.personalLastSighting - transform.position;
-        if(sightingDeltaPosition.sqrMagnitude > 4f)
+        if(sightingDeltaPosition.sqrMagnitude > 1f)
         {
             navMesh.destination = enemySight.personalLastSighting;
         }
@@ -74,6 +74,8 @@ public class EnemyAI : MonoBehaviour
 
     private void Patrolling()
     {
+        if (patrolWayPoints.Length == 0)
+            return;
         navMesh.speed = patrolSpeed;
         if(navMesh.destination == lastPlayerSighting.resetPosition || navMesh.remainingDistance < navMesh.stoppingDistance)
         {
