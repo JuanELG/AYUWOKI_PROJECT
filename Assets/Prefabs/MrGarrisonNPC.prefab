@@ -605,10 +605,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1441284694665638244}
   - component: {fileID: 1539085084572947074}
-  - component: {fileID: 1445416132858147583}
   - component: {fileID: 1445416132858147582}
   - component: {fileID: 1445416132858147577}
   - component: {fileID: 1445416133727341820}
+  - component: {fileID: 7749727852473160594}
   m_Layer: 0
   m_Name: MrGarrisonNPC
   m_TagString: Allie
@@ -651,28 +651,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1445416132858147583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1443975467517966624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71701d7d560903b48ad058a4ad39caa3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  currentWaypoint: 0
-  speed: 1
-  stopDistance: 0.15
-  pauseTimer: 1
-  currentTimer: 0
 --- !u!54 &1445416132858147582
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -725,6 +703,23 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &7749727852473160594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443975467517966624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de7549be10f6ffa47b7281bef55e3664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookRadius: 7
+  target: {fileID: 0}
+  wayPoints: []
+  following: 0
+  currentWaypointIndex: 0
 --- !u!1 &1443980424797255926
 GameObject:
   m_ObjectHideFlags: 0
