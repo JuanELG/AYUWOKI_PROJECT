@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class AllieController : MonoBehaviour
 {
     [SerializeField]
-    private float lookRadius = 7f;
+    private float lookRadius = 5f;
 
     [SerializeField]
     private Transform target;
@@ -21,7 +21,8 @@ public class AllieController : MonoBehaviour
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        target = wayPoints[0].transform;
+        if(wayPoints.Length > 0)
+            target = wayPoints[0].transform;
         following = false;
     }
 
@@ -39,6 +40,8 @@ public class AllieController : MonoBehaviour
 
     private void GoToWayPoint()
     {
+        if (target == null)
+            return;
         float distance = Vector3.Distance(target.position, transform.position);
         FaceTarget();
         if(distance <= agent.stoppingDistance)
@@ -51,6 +54,8 @@ public class AllieController : MonoBehaviour
 
     private void FollowPlayer()
     {
+        if (target == null)
+            return;
         float distance = Vector3.Distance(target.position, transform.position);
         if (distance <= lookRadius)
         {
